@@ -1,0 +1,8 @@
+/* miniprogram/pages/multi/index.wxss */
+.dark{
+  background-color: #000
+}
+
+.weui-flex image{
+  width: 100%
+}

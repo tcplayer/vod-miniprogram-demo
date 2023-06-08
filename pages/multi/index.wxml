@@ -1,0 +1,28 @@
+<import src="./tmpl.wxml" />
+
+<view class="page dark" xmlns:wx="http://www.w3.org/1999/xhtml">
+  <view class="page__bd">
+
+    <block wx:for="{{list}}" wx:key="index">
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <image src="{{item.src}}" data-index="{{index}}" hidden="{{item.active}}" bindtap='clickCover'></image>
+          <template is="vtmpl1" data="{{item:item}}" />
+        </view>
+      </view>
+    </block>
+
+    <view class="weui-flex">
+
+    </view>
+    <view class="weui-flex">
+
+    </view>
+    <view class="weui-flex">
+
+    </view>
+    <view class="weui-flex">
+      
+    </view>
+  </view>
+</view>

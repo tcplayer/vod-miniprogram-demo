@@ -1,0 +1,17 @@
+<template name="vtmpl1">
+
+  <block wx:if="{{item && item.active}}">
+
+    <my-player
+    vid=""
+    src="{{item.vsrc}}"
+    playerid="{{item.playerid}}"
+    poster="{{item.poster}}"
+    title="{{item.title}}" 
+    height="{{item.height}}"
+    autoplay="{{true}}"
+    width="100%"/>
+
+  </block>
+
+</template>

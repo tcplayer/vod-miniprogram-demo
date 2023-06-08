@@ -1,0 +1,25 @@
+{
+  "pages":[
+    "pages/index",
+    "pages/multi2/index",
+    "pages/multi/index",
+    "pages/single/index",
+    
+    "pages/multi2/detail/detail",
+    "pages/multi2/goods/goods"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "plugins": {
+    "myPlugin": {
+      "version": "0.1.2",
+      "provider": "wx116d0dd5e6a39ac7"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
