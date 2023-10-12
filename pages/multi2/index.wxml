@@ -3,6 +3,7 @@
 <import src="./recent_list_tmpl.wxml" />
 
 <view class="page">
+<video src="https://68789.liveplay.myqcloud.com/live/webrtc_demo_1693377723042.m3u8"></video>
   <view class="page__hd">
     <view class="page__title">视频列表页</view>
     <view class="page__desc">点击缩略图查看视频信息,下拉页面触发刷新</view>

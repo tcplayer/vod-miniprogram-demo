@@ -25,7 +25,7 @@
             </block>
         </view>
     </view>
-    <view class="page__ft">
-        
+    <view class="page__ft" bindtap='goToPrivacy'>
+        <div>腾讯云点播小程序服务声明</div>
     </view>
 </view>

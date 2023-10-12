@@ -17,6 +17,11 @@ Page({
       
     ]
   },
+  goToPrivacy: function() {
+    wx.navigateTo({
+      url: '/pages/privacy/index'
+    })
+  },
   kindToggle: function (e) {
     var id = e.currentTarget.id, list = this.data.list;
     for (var i = 0, len = list.length; i < len; ++i) {
